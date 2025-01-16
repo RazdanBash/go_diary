@@ -1,17 +1,19 @@
-package main
+// package main
 
-import (
-	"fmt"
-	"time"
-)
+// import (
+// 	"fmt"
+// 	"strings"
+// )
 
-func main() {
+// func main() {
 
-	now := time.Now().Weekday()
-	year := time.Now().Year()
-	fmt.Println(now,"\n",year)
+
+// 		broken := "G! r!cks!"
+// 		replacer := strings.NewReplacer(" ", "o")
+// 		fixed := replacer.Replace(broken)
+// 		fmt.Println(fixed)
 	
 	
-	
 
-}
+
+// }
