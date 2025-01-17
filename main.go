@@ -1,19 +1,15 @@
-// package main
+package main
 
-// import (
-// 	"fmt"
-// 	"strings"
-// )
+import (
+	"fmt"
+	"log"
+	"os"
+)
 
-// func main() {
-
-
-// 		broken := "G! r!cks!"
-// 		replacer := strings.NewReplacer(" ", "o")
-// 		fixed := replacer.Replace(broken)
-// 		fmt.Println(fixed)
-	
-	
-
-
-// }
+func main() {
+	fileInfo, err := os.Stat("my.txt")
+	if err != nil {
+		log.Fatal(err)
+	}
+	fmt.Println(fileInfo.Size())
+}
